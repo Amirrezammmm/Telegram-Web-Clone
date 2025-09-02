@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/images/telegramIcon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>telegram web</title>
+</head>
+<body>
+    <div class="container">
+        <div class="users">
+            <header class="hd_users">
+                <div class="search_and_menu">
+                    <div class="hamergur_menu" id="hamergur_menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="modal" id="modal">
+                        <div class="menu_item"><img src="" alt=""><h3>T B</h3></div>
+                        <div class="menu_item"></div>
+                        <div class="menu_item"></div>
+                        <div class="menu_item"></div>
+                        <div class="menu_item"></div>
+                        <div class="menu_item"></div>
+                        <div class="menu_item"></div>
+                        <div class="menu_item"></div>
+                        <div class="menu_item"></div>
+                        <div class="menu_item"></div>
+                        <div class="menu_item"></div>
+                        <div class="menu_item"></div>
+                    </div>
+                    <div class="search_user">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search" id="search_user">
+                    </div>
+                </div>
+                <div class="folder_tabs">
+                    <div class="tab_item">
+                        <span class="tab"></span>
+                    </div>
+                    <div class="tab_item">
+                        <span class="tab"></span>
+                    </div>
+                    <div class="tab_item">
+                        <span class="tab"></span>
+                    </div>
+                    <div class="tab_item">
+                        <span class="tab"></span>
+                    </div>
+                    <div class="tab_item">
+                        <span class="tab"></span>
+                    </div>
+                    <div class="tab_item"><span class="tab"></span></div>
+                    <div class="tab_item"><span class="tab"></span></div>
+                    <div class="tab_item"><span class="tab"></span></div>
+                    <div class="tab_item"><span class="tab"></span></div>
+                </div>
+            </header>
+            <div class="main_users"></div>
+        </div>
+        <div class="message">
+            <header class="hd_message">
+                <div class="hd_message_start">
+                    <div class="image_profile">
+                        <img src="" alt="profile" id="profile_image">
+                    </div>
+                    <div class="name_last_seen">
+                        <h1 class="user_name"></h1>
+                        <p class="last_seen"></p>
+                    </div>
+                </div>
+                <div class="hd_message_end">
+                    <div class="kebab_menu icons icons">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                    <div class="search_message icons">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="call icons">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                </div>
+            </header>
+            <main class="message_main">
+                <div class="m">
+                    <div class="messages"></div>
+                    <div class="message_input_send_button">
+                        <div class="message_input">
+                            <i class="fa-regular fa-face-smile"></i>
+                            <input type="text" placeholder="message" id="message_input">
+                        </div>
+                        <button id="send_message_button">
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+</body>
+    <script src="assets/js/main.js"></script>
+</html>
